@@ -2,8 +2,6 @@
 
 CLI para salvar anotações de estudo num arquivo `diario.txt`, registrando automaticamente a data e hora de cada entrada.
 
-Projeto desenvolvido como exercício prático do curso **Backend Node.js - Nível 1** da Alura.
-
 ---
 
 ## O que foi praticado
