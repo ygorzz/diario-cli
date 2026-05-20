@@ -53,8 +53,6 @@ diario-cli/
 | `diario list` | Lista todas as anotações salvas |
 | `diario clear` | Remove todas as anotações do diário |
 
----
-
 ### Adicionar anotação
 
 ```bash
@@ -63,8 +61,6 @@ diario add "Aprendi sobre async/await"
 
 A anotação será registrada automaticamente com data e hora formatadas em `pt-BR`.
 
----
-
 ### Listar anotações
 
 ```bash
@@ -72,8 +68,6 @@ diario list
 ```
 
 Exibe todas as anotações armazenadas no arquivo `diario.txt`.
-
----
 
 ### Limpar diário
 
@@ -88,7 +82,7 @@ Remove todo o conteúdo do diário.
 ## Funcionalidades e diferenciais
 
 - **CLI com Commander** — Estruturação profissional de comandos e argumentos.
-- **Persistência em arquivo** — Todas as anotações são armazenadas automaticamente em `diario.txt`.
+- **Persistência em arquivo** — Todas as as anotações são armazenadas automaticamente em `diario.txt`.
 - **Datas formatadas** — Registro automático utilizando `toLocaleString('pt-BR')`.
 - **Programação assíncrona** — Uso de `async/await` para manipulação de arquivos.
 - **Tratamento de erros** — Implementação de `try/catch` e erros personalizados.
@@ -100,85 +94,11 @@ Remove todo o conteúdo do diário.
 
 ---
 
-## Conceitos praticados
-
-### ES Modules
-
-- `import`
-- `export`
-- `export default`
-
-### Programação Assíncrona
-
-- `async`
-- `await`
-
-### Tratamento de Erros
-
-- `try/catch`
-- `throw`
-- `new Error()`
-
-### Sistema de Arquivos (`fs`)
-
-- `fs.promises.mkdir`
-- `fs.promises.appendFile`
-- `fs.promises.readFile`
-- `fs.promises.writeFile`
-
-### Manipulação de Caminhos
-
-- `path.resolve`
-
-### Datas
-
-```js
-new Date().toLocaleString('pt-BR')
-```
-
-### Commander
-
-- `.command()`
-- `.argument()`
-- `.action()`
-- `.parseAsync()`
-
-### CLI com Node.js
-
-- `npm link`
-- `"bin"` no `package.json`
-
-Shebang utilizado:
-
-```bash
-#!/usr/bin/env node
-```
-
-### Tratamento do erro `ENOENT`
-
-Tratamento de erros relacionados a arquivos ou caminhos inexistentes.
-
----
-
-## Exemplo de saída
-
-```txt
-[18/05/2026, 21:30:12]
-Aprendi sobre async/await
-
-[18/05/2026, 21:45:03]
-Estudei Commander.js
-```
-
----
-
 ## Como executar o projeto
 
 ### Pré-requisitos
 
 - [Node.js](https://nodejs.org/) v18 ou superior
-
----
 
 ### Passo a passo
 
@@ -237,6 +157,7 @@ diario clear
 - A aplicação utiliza programação assíncrona para manipulação de arquivos.
 - O arquivo `diario.txt` é utilizado como persistência simples de dados.
 - O projeto utiliza ES Modules nativamente.
+- O projeto utiliza o Commander para criação e gerenciamento dos comandos da CLI.
 
 ---
 
