@@ -164,3 +164,6 @@ diario clear
 ## Licença
 
 Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
+
+---
+*Desenvolvido por **Ygor Santos** — [LinkedIn](https://www.linkedin.com/in/ygor-santos-869152325/) | [GitHub](https://github.com/ygorzz)*
